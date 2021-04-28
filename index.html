@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    
+    <div class="group play">
+        <div class="fix">
+            <div id="BtnLeft">
+                <i class="fas fa-chevron-down"></i>
+             </div>
+            <div class="center">
+            <h4 class="caption">Reproduciendo</h4>
+            <h6 id="title">Raise 'em Up</h6>
+            </div>
+            <div id="BtnRight">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+         </div>
+        <div class="background">
+            <img src="Image/ALonestar (Feat. Ed Sheeran) - Raise  em up (Team Lit Mix).jpg" alt="Rolita" id="cover">
+            <div class="lyrics">
+                <h6>Raise 'em Up</h6> <br>
+                <p>You know I got to get away <br>
+                    To find some peace and sanity<br>
+                    I've been playing hide-and-seek too long<br>
+                    
+                    Shaking, making, everybody waking<br>
+                    Setting the hi-fi bleed<br>
+                    Keeping me back<br>
+                    While you're spinning my track<br>
+                    That'll knock you off your feet<br>
+                    
+                    Monkey see what monkey do<br>
+                    But I'm a monkey telling you<br>
+                    I just think that we should take a break<br>
+                    Tickity-tock the clock<br>
+                    With the hip-hop<br>
+                    And alonestar backing me up<br>
+                    We won't stop<br>
+                    I gotta be searching for my peace of mind<br>
+                    Now let the track rewind<br>
+                    
+                    And play, let the music play<br>
+                    It came, so let the music say what it feels<br>
+                    Shame, shame it took too long<br>
+                    To see that you were wrong<br>
+                    Now turn the song back on<br>
+                    
+                    This is Alonestar coming at you<br>
+                    With a new style<br>
+                    Kicking dust<br>
+                    Ready to bust<br>
+                    It's Urban Angel<br>
+                    Artistic, flipping the script<br>
+                    Who d'you really want to get it with?<br>
+                    Ed and Alonestar<br>
+                    We're like live wires sparking<br>
+                    Ready to blow<br>
+                    We've already sown our seeds<br>
+                    We're just waiting to grow - blow<br>
+                    We're gonna lift you like a shock to your body<br>
+                    Metaphorical speech when we come and see<br>
+                    You ducking for cover<br>
+                    Sheeran Lock coming ready to rock<br>
+                    With Urban Angel and Alonestar<br>
+                    And Ed - keep it locked<br>
+                    Let the beat pump<br>
+                    Drop the bass but don't stop<br>
+                    We're kicking the sound<br>
+                    Let the bass bins pound<br>
+                    We're gonna roll<br>
+                    Can you feel me now with my body?<br>
+                    Get down to the sound<br>
+                    It's Ed Sheeran in the place<br>
+                    And Alonestar rising up<br>
+                    We gotta rise up<br>
+                    I said rise up<br>
+                    
+                    And play, let the music play<br>
+                    It came, so let the music say what it feels<br>
+                    Shame, shame it took so long<br>
+                    To see that you were wrong<br>
+                    Now turn the song back on<br></p>
+            </div>
+        </div>
+
+        <audio src="Music/ALonestar (Feat. Ed Sheeran) - Raise  em up (Team Lit Mix).mp3" class="audio"></audio>
+
+        <div class="progress">
+            <div class="bar-cover">
+                <div class="bar"></div>
+            </div>
+        </div>
+        
+        <div class="display">
+            <div id="display-motor">
+                <button id="bucle" class="BtnBucle">
+                    <i class="fas fa-retweet"></i>
+                </button>
+                <button id="prev" class="BtnPrev">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="play" class="BtnPlay BtnPlay-RePlay">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="next" class="BtnNext">
+                    <i class="fas fa-forward"></i>
+                </button>
+                <button id="alt" class="BtnAlt">
+                    <i class="fa fa-random" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+   <aside class="list">
+       <div id="name">
+           <h3>This Is Radio</h3>
+       </div>
+       <div class="listName">
+           <div class="itsName">
+               <img src="Image/24kgoldn - Mood.jpg" alt="Mood" class="show"></img>
+               <div class="lorem">
+                <h6 id="titulo">Mood - 24kgoldn</h6>
+                <div class="icons">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-play"></i>
+                </div>
+               </div>
+           </div>
+        </div>
+       </div>
+   </aside>
+
+    <script src="app.js"></script>
+</body>
+</html>
